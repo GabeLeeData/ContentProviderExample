@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 String[] projection = {ContactsContract.Contacts.DISPLAY_NAME_PRIMARY};
                 ContentResolver contentResolver = getContentResolver();
                 Cursor cursor = contentResolver.query(ContactsContract.Contacts.CONTENT_URI,projection,null,null,ContactsContract.Contacts.DISPLAY_NAME_PRIMARY);
-
+                String test = "";
             }
         });
     }
